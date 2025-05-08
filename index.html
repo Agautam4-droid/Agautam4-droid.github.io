@@ -1,24 +1,121 @@
 <!DOCTYPE html>
-<html>
-   <head>
-     
-
-     <h1 style="color:maroon;">Hi I am Agam Gautam</h1>
- <nav>
- <ul>
- <li><a href="index.html">home</a></li>
- <li><a href="about.html">home</a></li>
- <li><a href="contact.html">home</a></li>
- </ul>
-</nav>        
-     
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>hello I am Agam Gautam And I am From New Delhi, India.
-  I love to got Gurudwaras over There. I love New Delhi Because 
-  I have memories with this place.</p>
-  <h2>My favorite hobies</h2>
-  <p>My favorite hobies are drawing,painting,Tabla,singing & Cycle.</p>
-  <p>When I Grow up I want to be Indian Singer & Actor.</p>
-   <body/>
-     <html/>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm a High school student.</h2>
+    <p>I love studying in Surrey BC.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello my name is Agam Gautam.</p>
+      <p>I was born in New Delhi,India in 2011.</p>
+      <p>My religion is Sikhism and love to go Gurudwara.</p>
+      <p>I love to draw,paint,sing and playing Instruments.</p>
+      <p>When I grow up I want to be Indian Singer & Actor.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of your first project.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of your second project.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.agamgautam10@gmail.com.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+✅ 2. Create a style.css file:
+css
+Copy
+Edit
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background: #e2e2e2;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #333;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
